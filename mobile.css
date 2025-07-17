@@ -1,0 +1,44 @@
+ *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#navbar .nav1 .details{
+    width: 45%;
+}
+#navbar .nav2{
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #14452f;
+    /* background-color: #86b817; */
+    /* background:linear-gradient(90deg,rgba(0,0,0,70%),rgba(0,0,0,0.2)); */
+}
+body::before{
+    content: '';
+    position: absolute;
+    width: 100vw; 
+    height: 75vh;
+    /* background-image: url(bg-hero.jpg); */
+    /* background:linear-gradient(360deg,rgba(0,0,0,70%),rgba(20,20,31,0.7)); */
+    /* transition: slider all ease-in-out 2s; */
+    /* animation-name: slider;
+    animation-duration: 80s;
+    animation-delay: 0.1ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    /* animation-delay: 5s; */
+    /* background-size: cover;
+    animation-fill-mode: backwards;
+    animation-delay: 1s;
+    opacity: 0.97;
+    background: linear-gradient();
+    background-position: center center;
+    background-repeat: no-repeat;
+    filter: brightness(60%);
+    z-index: -1; */ 
+} 
+#hero2{
+    margin-top: 200px;
+}
