@@ -14,6 +14,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     if ($conn->query($sql) === TRUE) {
         echo "Signup successful!";
+        header("Location: index.php");
+        include "index.php";
+        echo "<script>window.location.replace('index.php'); </script>";
     } else {
         echo "Error: " . $conn->error;
     }
