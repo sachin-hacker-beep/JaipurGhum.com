@@ -2,10 +2,10 @@
 require 'connect.php';
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    $email = $conn->real_escape_string($_POST['email']);
-    $password = $_POST['password'];
+    $email = $conn->real_escape_string($_POST['reg-email']);
+    $password = $_POST['reg-password'];
 
-    $sql = "SELECT * FROM users WHERE email = '$email'";
+    $sql = "SELECT * FROM users WHERE Useremail = '$email'";
     $result = $conn->query($sql);
 
     if ($result->num_rows === 1) {

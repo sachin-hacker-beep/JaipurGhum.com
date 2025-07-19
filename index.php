@@ -93,9 +93,9 @@
         <form action="submit.php" method="post">
             <h3>LOGIN</h3>
             <label for="email"></label>
-            <input type="email" id="email-box" placeholder=" Enter Email" class="input-box" name="email" required >
+            <input type="email" id="email-box" placeholder=" Enter Email" class="input-box" name="reg-email" required >
             <label for="Password-box"></label>
-            <input type="password" id="Password-box" placeholder=" Enter Password" class="input-box" required name="password" >
+            <input type="password" id="Password-box" placeholder=" Enter Password" class="input-box" required name="reg-password" >
             <input type="submit" id="submit-btn" class="input-box" value="submit" onclick="func()">
             <!-- <input type="checkbox" id="select" value="Remember Me"> -->
             
