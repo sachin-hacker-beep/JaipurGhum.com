@@ -1,8 +1,3 @@
-<?php
-session_start();
-include("connect.php");
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -92,22 +87,6 @@ include("connect.php");
             </div>
         </form>
     </div>
-
-                                    <!-- php -->
-
-        <?php
-        if(isset($_SESSION['email'])){
-            $email=$_SESSION['email'];
-            $query=mysqli_query($conn, "SELECT users. * From users WHERE users.email='$email'");
-            while($row=mysqli_fetch_array($query)){
-                echo $row['	Username'];
-            }
-        }
-        ?>
-                                    <!-- php end-->
-
-                                    <!-- LOGIN FORM -->
-
 
     <div class="form-container" id="form-container">
         <i class="fa-solid fa-xmark" id="form-close"></i>
