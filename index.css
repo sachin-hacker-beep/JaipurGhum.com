@@ -230,46 +230,15 @@ header{
     font-size: 17px;
     padding-top: 20px;
     padding-bottom: 25px;
-    text-shadow: 3px 1px black;
+    /* text-shadow: 3px 1px black; */
 }
 #hero1 span a{
-    color: palevioletred;
+    color: rgb(224, 62, 116);
     font-family: cursive;
     text-decoration: none;
+    font-weight: extra-bold;
 }
-/* .searchbar{
-    width: 50%;
-    height: 100%;
-    margin-top: 50px;
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin-bottom: 70px;
-    
-}
-    .searchbar button{
-    cursor: pointer;
-    position: absolute;
-    width: 100px;
-    height: 40px;
-    border-radius: 50px;
-    border: 1px solid #86b817;
-    right: 8px;
-    bottom: -15px;
-    background-color: #86b817;
-    color: white;
-    font-size: 16px;
-    font-weight: 700;
-    font-family: 'nunito',sans-serif;
-}
-.searchbar input{
-    padding: 30px;
-    font-size: 16px;
-    color: #333;
-    font-weight: 700;
-} */
+
 #hero1 input{
     width: 100%;
     height: 55px;
