@@ -628,6 +628,14 @@
         margin-top: 100px;
         margin-bottom: 150px;
     }
+    .nav2 .logo i{
+        font-size: 32px;
+        padding-top: 5px;
+    }
+    .nav2 .logo h1{
+        padding-top: 5px;
+        font-size: 32px;
+    }
 }
 
 @media (max-width:853px){
@@ -1454,6 +1462,40 @@
         right: 50px;
     }
     
+}
+@media only screen and (max-width:730px) and (min-width:680px){
+    .nav2 .logo i{
+        font-size: 35px;
+    }
+    .nav2 .logo h1{
+        font-size: 35px;
+    }
+}
+@media only screen and (max-width:679px) and (min-width:600px){
+    .nav2 .logo i{
+        font-size: 36px;
+    }
+    .nav2 .logo h1{
+        font-size: 36px;
+    }
+}
+@media only screen and (max-width:599px) and (min-width:500px){
+    .nav2 .logo i{
+        font-size: 35px;
+    }
+    .nav2 .logo h1{
+        font-size: 35px;
+    }
+}
+@media only screen and (max-width:499px) and (min-width:400px){
+    .nav2 .logo i{
+        font-size: 30px;
+        padding-top: 5px;
+    }
+    .nav2 .logo h1{
+        padding-top: 5px;
+        font-size: 30px;
+    }
 }
 @media only screen and (max-width:540px){                /* SURFACE DUO*/
     #navbar ul{
@@ -2816,6 +2858,16 @@
     #fa-xmark{
         top: 70px;
         right: 20px;
+    }
+}
+@media only screen and (max-width:399px) and (min-width:340px){
+    .nav2 .logo i{
+        font-size: 25px;
+        padding-top: 10px;
+    }
+    .nav2 .logo h1{
+        padding-top: 10px;
+        font-size: 25px;
     }
 }
 

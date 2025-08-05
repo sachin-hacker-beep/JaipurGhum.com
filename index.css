@@ -193,9 +193,6 @@ header{
 .active{
     color: #86b817;
 }
-
-
-
 #hero1{
     width: 100vw;
     height: 100%;
@@ -213,9 +210,8 @@ header{
     position:absolute;
     top: 0;
     left: 0;
-    object-fit: cover;;
+    object-fit: cover;
 }
-
 #hero1 P{
     color: white;
     padding-top: 200px;
@@ -229,7 +225,6 @@ header{
 }
 #hero1 span{
     color: white;
-    font-family: cursive;
     width: 50%;
     text-align: center;
     font-size: 17px;
